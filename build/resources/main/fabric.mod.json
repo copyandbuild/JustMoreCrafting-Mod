@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "justmorecrafting-mod",
+  "version": "1.0",
+  "name": "JustMoreCrafting-Mod",
+  "description": "Crafte das, was du nicht craften kannst.",
+  "authors": ["moozyl"],
+  "contact": {
+    "repo": "https://github.com/Veränderter/JustMoreCrafting-Mod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/justmorecrafting-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.moozyl.justmorecraftingmod.JustMoreCrafting_Mod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "minecraft": "1.20"
+  }
+}
